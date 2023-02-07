@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static e relative</title>
+    <style>
+        body{
+            background-color: #007fc7;
+        }
+
+        #container{
+            background-color: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        p {
+            width: 300px;
+        }
+
+        /* Static é o posicionamento padrão do documento */
+        
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /* top, right, bottom, left*/
+            top: 20px;
+            left: 80px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        
+        <h1>Posicionamentos</h1>
+
+        <p>P 1Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempore eos odio ea quo. Laudantium, fuga? Animi consequuntur reiciendis iste.</p>
+        <p class="relative">P 2Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempore eos odio ea quo. Laudantium, fuga? Animi consequuntur reiciendis iste.</p>
+        <p>P 3Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempore eos odio ea quo. Laudantium, fuga? Animi consequuntur reiciendis iste.</p>
+        <p>P 4Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores tempore eos odio ea quo. Laudantium, fuga? Animi consequuntur reiciendis iste.</p>
+    </div>
+
+</body>
+</html>

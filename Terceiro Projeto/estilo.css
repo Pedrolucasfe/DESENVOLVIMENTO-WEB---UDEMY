@@ -29,17 +29,11 @@ body {
 
 }
 
-
-
 #area-postagens {
     width: 660px;
     float: left;
 }
 
-#area-lateral {
-    width: 240px;
-    float: right;
-}
 
 .postagem {
     padding: 20px;
@@ -53,7 +47,10 @@ body {
     margin-bottom: 20px;
 }
 
-
+#area-lateral {
+    width: 240px;
+    float: right;
+}
 
 #rodape {
     clear: both;
